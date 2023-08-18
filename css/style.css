@@ -1,0 +1,82 @@
+.hidden {
+  display: none;
+}
+/* 배경 이미지
+url을 어떻게 가져오는지 모르겠다. */
+body {
+  font-family: "Lobster", cursive;
+  font-family: "Noto Serif KR", serif;
+  background-size: cover;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+.bgImage {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#clock {
+  margin-top: 130px;
+  font-size: 150px;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+  margin-bottom: 0;
+}
+
+#input {
+  width: 300px;
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid white;
+  background: none;
+  color: whitesmoke;
+  font-size: 20px;
+}
+#greeting {
+  font-size: 20px;
+  color: white;
+}
+button {
+  background: none;
+  border: none;
+}
+#todo {
+  color: aliceblue;
+  gap: 10px;
+  font-size: 15px;
+}
+
+#quote {
+  width: 300px;
+  color: aliceblue;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  white-space: normal;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#weather {
+  color: aliceblue;
+  width: 500px;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}
